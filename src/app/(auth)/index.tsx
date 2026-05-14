@@ -1,9 +1,11 @@
-import { Link } from 'expo-router';
+import { Link, router } from 'expo-router';
 import React, { useState } from 'react';
-import { Alert, ImageBackground, KeyboardAvoidingView, Platform, ScrollView, StyleSheet, Text, View, } from "react-native";
-import { Button } from '../components/button';
-import { Input } from '../components/input';
-import { colors } from '../styles/colors';
+import {
+  Alert, ImageBackground, KeyboardAvoidingView, Platform, ScrollView, StyleSheet, Text, View,
+} from "react-native";
+import { Button } from '../../components/button';
+import { Input } from '../../components/input';
+import { colors } from '../../styles/colors';
 
 export default function App() {
 
@@ -16,6 +18,8 @@ export default function App() {
       }
 
       Alert.alert("Bem-vindo!", `Login realizado com: ${email}`);
+
+      router.push('../(tabs)');
   }
 
   return (
@@ -23,7 +27,7 @@ export default function App() {
 
       <ScrollView contentContainerStyle={{ flexGrow: 1 }} keyboardShouldPersistTaps="handled">
         <ImageBackground
-        source={require('../assets/images/imagedefundo.jpg')}
+        source={require('../../assets/images/imagedefundo.jpg')}
         style={styles.bg}
         resizeMode="cover"
       >
@@ -37,13 +41,13 @@ export default function App() {
 
            <View style={styles.form}>
             <Input placeholder="E-mail" keyboardType="email-address" placeholderTextColor={colors.color1} onChangeText={setEmail} />
-            <Input placeholder="Senha" secureTextEntry placeholderTextColor={colors.color1} onChangeText={setPassword} />
-            <Button label="Entrar" onPress={handleSignIn} />
+            <Input placeholder="Senha" secureTextEntry placeholderTextColor={colors.color1} onChangeText={setPassword} /> 
+            <Button label="Entrar" onPress={handleSignIn}   />
            </View>
       
            <Text style={styles.footerText}>
-            Não tem conta? {' '}
-             <Link href="../signup" style={styles.footerlink}>
+            Não tem conta?{' '}
+             <Link href="/signup" style={styles.footerlink}>
               cadastre-se aqui
              </Link>
            </Text>
