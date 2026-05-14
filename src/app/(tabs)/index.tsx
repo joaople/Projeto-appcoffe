@@ -1,10 +1,23 @@
-import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { FlatList, StyleSheet, View } from "react-native";
+import CoffeeCard from '../../components/CoffeeCard';
+import products from "../../data/products";
 
-export default function App() {
+export default function Home() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}> tela principal </Text>
+
+      <FlatList
+        data={products}
+
+        keyExtractor={(item) => item.id}
+
+        numColumns={2}
+
+        renderItem={({ item }) => (
+          <CoffeeCard product={item} />
+        )}
+      />
+
     </View>
   );
 }
@@ -12,12 +25,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-  },
-
-  text: {
-    fontSize: 30,
-    fontWeight: "bold",
+    padding: 10,
   },
 });

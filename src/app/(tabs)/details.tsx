@@ -1,24 +1,20 @@
-import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text } from "react-native";
 
-export default function App() {
+import { useLocalSearchParams } from "expo-router";
+
+export default function Details() {
+
+  const { name,type,price,} = useLocalSearchParams();
+
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Detalhes do Produto</Text>
+    <View>
+
+      <Text>{name}</Text>
+
+      <Text>{type}</Text>
+
+      <Text>R$ {price}</Text>
+
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-
-  },
-
-  text: {
-    fontSize: 30,
-    fontWeight: "bold",
-  },
-});
