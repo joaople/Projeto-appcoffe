@@ -17,9 +17,9 @@ export default function SignUp() {
         return Alert.alert("Entrar", "Preencha todos os campos!");
       }
 
-      Alert.alert("Bem-vindo!", `Login realizado com: ${email}`);
+      Alert.alert("Bem-vindo!", `Cadastro realizado com: ${email}`);
 
-      router.push('./(auth)');
+      router.push('/');
   }
 
   return (
@@ -47,11 +47,11 @@ export default function SignUp() {
            </View>
       
            <Text style={styles.footerText}>
-            Já tem uma tem conta?{' '}
-             <Link href="./(auth)" style={styles.footerlink}>
+              Já tem uma conta?{' '}
+            <Link href="/" style={styles.footerlink}>
               Entre aqui
-             </Link>
-           </Text>
+              </Link>
+            </Text>
          </View>
        </ImageBackground>
      </ScrollView>
@@ -76,13 +76,13 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 42,
     fontWeight: 'bold',
-    color: colors.text,
+    color: colors.color4,
 
   },
 
   subtitle: {
     fontSize: 16,
-    color: colors.text,
+    color: colors.color4,
   },
 
   form: {
@@ -94,7 +94,7 @@ const styles = StyleSheet.create({
     fontSize: 14,
     textAlign: 'center',
     marginTop: 24,
-    color: colors.text,
+    color: colors.color4,
   },
 
   footerlink: {

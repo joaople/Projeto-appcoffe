@@ -1,7 +1,6 @@
 import { Link, router } from 'expo-router';
 import React, { useState } from 'react';
-import {
-  Alert, ImageBackground, KeyboardAvoidingView, Platform, ScrollView, StyleSheet, Text, View,
+import { Alert, ImageBackground, KeyboardAvoidingView, Platform, ScrollView, StyleSheet, Text, View,
 } from "react-native";
 import { Button } from '../../components/button';
 import { Input } from '../../components/input';
@@ -75,13 +74,13 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 42,
     fontWeight: 'bold',
-    color: colors.text,
+    color: colors.color4,
 
   },
 
   subtitle: {
     fontSize: 16,
-    color: colors.text,
+    color: colors.color4,
   },
 
   form: {
@@ -93,7 +92,7 @@ const styles = StyleSheet.create({
     fontSize: 14,
     textAlign: 'center',
     marginTop: 24,
-    color: colors.text,
+    color: colors.color4,
   },
 
   footerlink: {
