@@ -117,7 +117,6 @@ export default function Cart() {
                   )
                 }
               >
-
                 <Ionicons
                   name="add"
                   size={18}
@@ -139,7 +138,6 @@ export default function Cart() {
             styles.totalContainer
           }
         >
-
           <Text
             style={
               styles.totalLabel

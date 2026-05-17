@@ -80,11 +80,11 @@ export default function Home() {
                   <Ionicons
                     name="search"
                     size={20}
-                    color={colors.color4}
+                    color={colors.color3}
                   />
 
                   <TextInput
-                    placeholder="Search coffee"
+                    placeholder="pesquisar"
                     placeholderTextColor="#999"
                     style={styles.input}
 
@@ -281,7 +281,7 @@ const styles = StyleSheet.create({
   },
 
   header: {
-    backgroundColor: colors.fund,
+    backgroundColor: colors.color3,
     paddingTop: 40,
     marginHorizontal: -20,
     paddingHorizontal: 20,
@@ -309,7 +309,7 @@ const styles = StyleSheet.create({
   inputContainer: {
     flex: 1,
     height: 55,
-    backgroundColor: colors.color3,
+    backgroundColor: colors.color4,
     borderRadius: 16,
     flexDirection: "row",
     alignItems: "center",
