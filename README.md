@@ -5,11 +5,11 @@ O sistema possui telas de login, cadastro, home, detalhes do pedido e carrinho d
 O projeto foi desenvolvido com foco em organização de componentes, reutilização de código e interface moderna e responsiva.
 
 **membros do grupo**
-- Fábio Lucas Ferreira de Castro 
-- João Pedro Lima Alves 
-- João Victor Lima Alves 
-- Keila Silva Maia 
-- Kayke de Sousa Figuerêdo
+- Fábio Lucas Ferreira de Castro - 01796226 
+- João Pedro Lima Alves - 01791587
+- João Victor Lima Alves - João Victor Lima Alves 
+- Keila Silva Maia - 01849780
+- Kayke de Sousa Figuerêdo - 01797264
 
 ## Tela de Login
 <img 
