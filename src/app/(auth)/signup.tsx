@@ -27,7 +27,7 @@ export default function SignUp() {
 
       <ScrollView contentContainerStyle={{ flexGrow: 1 }} keyboardShouldPersistTaps="handled">
         <ImageBackground
-        source={require('../../assets/images/IMG_5227.JPG.jpeg')}
+        source={require('../../assets/images/imagendocadastro.jpeg')}
         style={styles.bg}
         resizeMode="cover"
       >
