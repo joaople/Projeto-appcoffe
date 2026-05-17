@@ -12,7 +12,10 @@ O projeto foi desenvolvido com foco em organização de componentes, reutilizaç
 - Kayke de Sousa Figuerêdo
 
 ## Tela de Login
-![Tela Login](./src/app/ImagensdoApp/Teladelogin/Login.jpeg)
+<img 
+  src="./src/app/ImagensdoApp/Teladelogin/Login.jpeg" 
+  width="250"
+/>
 
 ## Tela de Cadastro
 ![Tela Cadastro](./src/app/ImagensdoApp/TeladeCadastro/cadastro.jpeg)
