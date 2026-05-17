@@ -18,15 +18,30 @@ O projeto foi desenvolvido com foco em organização de componentes, reutilizaç
 />
 
 ## Tela de Cadastro
-![Tela Cadastro](./src/app/ImagensdoApp/TeladeCadastro/cadastro.jpeg)
+<img 
+  src="./src/app/ImagensdoApp/TeladeCadastro/cadastro.jpeg" 
+  width="250"
+/>
 
 ## Tela Home
-![Tela Home 1](./src/app/ImagensdoApp/Telahome/home1.jpeg)
+<img 
+  src="./src/app/ImagensdoApp/Telahome/home1.jpeg" 
+  width="250"
+/>
 
-![Tela Home 2](./src/app/ImagensdoApp/Telahome/home2.jpeg)
+<img 
+  src="./src/app/ImagensdoApp/Telahome/home2.jpeg" 
+  width="250"
+/>
 
 ## Tela de Detalhes
-![Tela Detalhes](./src/app/ImagensdoApp/Teladedetalhes/Detalhes.jpeg)
+<img 
+  src="./src/app/ImagensdoApp/Teladedetalhes/Detalhes.jpeg" 
+  width="250"
+/>
 
 ## Tela do Carrinho
-![Tela Carrinho](./src/app/ImagensdoApp/TeladeCarrinho/Carrinho.jpeg)
+<img 
+  src="./src/app/ImagensdoApp/TeladeCarrinho/Carrinho.jpeg" 
+  width="250"
+/>
